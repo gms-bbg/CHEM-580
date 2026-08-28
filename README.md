@@ -1,5 +1,8 @@
 # CHEM-580
 
+Supplemental materials for the CHEM-580 course materials which can be found at https://www.msg.chem.iastate.edu/courses/courses.html
+
+
 ##  Tutorials: 
 
 See the tutorials folder for specific instructions for using GAMESS.
