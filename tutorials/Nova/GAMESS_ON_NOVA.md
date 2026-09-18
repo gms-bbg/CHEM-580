@@ -152,14 +152,11 @@ Submit your GAMESS job using the `rungms` command:
 rungms exam01.inp &> exam01.log
 ```
 
-<sub>
-
 - `rungms` — GAMESS execution script 
 - `exam01.inp &> exam01.log` — Runs input file and saves all output/errors to log file
 - Results saved in `exam01.log` for review
 - `&>` forwards all output to the specified log file.
 
-</sub>
 
 **NOTE**: This is different than the instructions which may have been given in the lecture slides. The gms run script shown in lecture is different than the one availible in Nova rungms. 
 
