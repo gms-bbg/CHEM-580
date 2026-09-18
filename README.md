@@ -6,6 +6,12 @@ Supplemental materials for the CHEM-580 course materials which can be found at h
 ##  Tutorials: 
 
 See the tutorials folder for specific instructions for using GAMESS.
+For Homework: 
+- [GAMESS on Nova](tutorials/Nova/GAMESS_ON_NOVA.md)
+
+Running GAMESS on your own computer: 
+- [Installing GAMESS](tutorials/Installing_GAMESS/tutorial-0-computer-setup.md)
+
 
 ## Liscence: 
 
