@@ -127,7 +127,7 @@ The easiest method for doing this now is to create your input on your comptuer a
 
 Example input files can be found in the [example_inputs](../../example_inputs/) folder of this repository. 
 
-
+For your first time running GAMESS, copy the example input file `exam01.inp` from the example_inputs folder to your working directory.
 
 https://nova-ondemand.its.iastate.edu/pun/sys/dashboard/files/fs/home/YOURNETID
 
