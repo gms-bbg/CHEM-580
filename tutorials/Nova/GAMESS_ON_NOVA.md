@@ -190,7 +190,9 @@ However, it may be easier for you to download the file and view it on your own c
 
 ![Download](./Download_Files.png)
 
-You can then open them in a text editor of your choice - Mac: TextEdit
+You can then open them in a text editor of your choice 
+
+- Mac: TextEdit
 - Windows: Notepad
 - Linux: Text Editor 
 
