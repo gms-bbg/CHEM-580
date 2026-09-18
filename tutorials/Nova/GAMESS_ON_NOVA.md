@@ -14,6 +14,8 @@ The goal of this tutorial is for you to be able to run a GAMESS calculation on N
 
 You must be on the Iowa State University network or connected via VPN to access NOVA. 
 
+https://research.it.iastate.edu/resource/virtual-private-network-vpn-information-technology-iowa-state-university
+
 There are several ways to access NOVA 
 
 ### Web "On Demand"
@@ -103,7 +105,6 @@ module list            # Check loaded modules
 Test your interactive environment with a simple command:
 
 ```bash
-which python
 echo "hello world" > hello_world.txt
 cat hello_world.txt
 ```
@@ -143,7 +144,9 @@ https://nova-ondemand.its.iastate.edu/pun/sys/dashboard/files/fs/home/YOURNETID
 ls *
 ```
 Expected Output: 
+
 [jhayes1@nova21-swift-2 CHEM580]$ ls
+
 exam01.inp
 
 
@@ -172,7 +175,9 @@ To see that there is output in your output file verify it exists
 ls 
 ```
 Expected output: 
+
 [jhayes1@nova-login-2 CHEM580]$ ls
+
 exam01.inp  exam01.log  gamess-run
 
 ### View The File 
