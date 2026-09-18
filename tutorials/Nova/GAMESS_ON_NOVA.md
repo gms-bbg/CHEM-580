@@ -123,7 +123,11 @@ module load gamess/31JUL2022R1
 
 Ensure your GAMESS input files are ready in your working directory. A typical input file has the extension `.inp`.
 
-The easiest method for doing this now is to create your input and copy it to your working directory using the web file interface. 
+The easiest method for doing this now is to create your input on your comptuer and copy it to your working directory using the web file interface. 
+
+Example input files can be found in the [example_inputs](../../example_inputs/) folder of this repository. 
+
+
 
 https://nova-ondemand.its.iastate.edu/pun/sys/dashboard/files/fs/home/YOURNETID
 
@@ -159,6 +163,36 @@ rungms exam01.inp &> exam01.log
 
 
 **NOTE**: This is different than the instructions which may have been given in the lecture slides. The gms run script shown in lecture is different than the one availible in Nova rungms. 
+
+### Step 4: Review Output Files
+
+To see that there is output in your output file verify it exists 
+
+```bash 
+ls 
+```
+Expected output: 
+[jhayes1@nova-login-2 CHEM580]$ ls
+exam01.inp  exam01.log  gamess-run
+
+### View The File 
+
+GAMESS output files are large, you can view them in a terminal with your preferred text editor 
+
+```bash 
+nano exam01.log
+```
+```bash 
+vi exam01.log
+```
+
+However, it may be easier for you to download the file and view it on your own computer. Use the web file interface to download `exam01.log`. Highlight the files you want and click download. 
+
+![Download](./Download_Files.png)
+
+You can then open them in a text editor of your choice - Mac: TextEdit
+- Windows: Notepad
+- Linux: Text Editor 
 
 
 ## Cleanup steps

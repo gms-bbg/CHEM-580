@@ -12,6 +12,9 @@ For Homework:
 Running GAMESS on your own computer: 
 - [Installing GAMESS](tutorials/Installing_GAMESS/tutorial-0-computer-setup.md)
 
+## Example Inputs:
+
+- [Example input files](example_inputs/)
 
 ## Liscence: 
 
