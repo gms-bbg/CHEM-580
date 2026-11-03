@@ -4,10 +4,10 @@ Scripts in this folder:
 
 | File | Purpose |
 |------|---------|
-| `nova_build_gamess.sh` | Commands for building GAMESS on Nova |
-| `install.info.nova.example` | Example `install.info` for the GAMESS configuration |
-| `rungms-dev-nova` | Replacement `rungms-dev` for Nova |
-| `nova_run_gamess_batch.sh` | SBATCH script to run a GAMESS input |
+| [`nova_build_gamess.sh`](./nova_build_gamess.sh) | Commands for building GAMESS on Nova |
+| [`install.info.nova.example`](./install.info.nova.example) | Example `install.info` for the GAMESS configuration |
+| [`rungms-dev-nova`](./rungms-dev-nova) | Replacement `rungms-dev` for Nova |
+| [`nova_run_gamess_batch.sh`](./nova_run_gamess_batch.sh) | SBATCH script to run a GAMESS input |
 
 ## 1. Build GAMESS
 
@@ -25,7 +25,7 @@ Scripts in this folder:
    module load openmpi
    module load openblas/0.3.21-zniqbxh
    ```
-4. Run the configuration and answer the prompts, using `install.info.nova.example` as a guide for paths:
+4. Run the configuration and answer the prompts, using [`install.info.nova.example`](./install.info.nova.example) as a guide for paths:
    ```bash
    ./config
    ```
@@ -84,7 +84,7 @@ Scripts in this folder:
    make -j4
    ```
 6. The build succeeded if you see `The linking of GAMESS to binary gamess.00.x was successful.`
-7. Copy [`rungms-dev-nova`](https://github.com/gms-bbg/CHEM-580/blob/main/tutorials/Nova_Advanced/rungms-dev-nova) over `rungms-dev` in the GAMESS directory (download the [raw file](https://raw.githubusercontent.com/gms-bbg/CHEM-580/main/tutorials/Nova_Advanced/rungms-dev-nova) or copy it from this folder):
+7. Copy [`rungms-dev-nova`](./rungms-dev-nova) over `rungms-dev` in the GAMESS directory:
    ```bash
    cp rungms-dev-nova rungms-dev
    ```
@@ -95,7 +95,7 @@ Scripts in this folder:
 
 ## 2. Run a Job
 
-1. Edit `nova_run_gamess_batch.sh`:
+1. Edit [`nova_run_gamess_batch.sh`](./nova_run_gamess_batch.sh):
    - `#SBATCH -J` job name
    - `#SBATCH -t` time limit
    - `#SBATCH -N` number of nodes
