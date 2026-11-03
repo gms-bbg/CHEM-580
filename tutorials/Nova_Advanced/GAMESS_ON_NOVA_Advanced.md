@@ -29,7 +29,54 @@ Scripts in this folder:
    ```bash
    ./config
    ```
-   <!-- TODO: details on config answers -->
+
+   prompt answers:
+   
+   ```
+   please enter your target machine name: linux64 
+   ```
+   ```
+   GAMESS directory? [/path/to/gamess] hit <ENTER>  no input needed (use detault)
+   ```
+
+   ```
+   GAMESS build directory? [/path/to/gamess] hit <ENTER>  no input need (use detault) 
+   ```
+   ```
+   Version? [00] hit <ENTER> (use default)
+   ```
+   ```
+   HPC system target for 64-bit Linux system: <ENTER> 
+   ```
+   ```
+   Please enter your choice of FORTRAN: gfortran
+   ```
+   ```
+   Please enter only the first decimal place, such as 8.2 or 11.2: 11.4
+   ```
+   ```
+   Enter your math library choice from one of the options below: 'acml', 'aocl', 'atlas', 'mkl', 'openblas', 'nvblas', 'armpl', 'nvpl', 'none'
+   : openblas
+   ```
+   ```
+   Where is your libopenblas64.a or libopenblas.a file located?
+   enter this full pathname: /opt/rit/el9/20240815/app/linux-rhel9-x86_64_v3/gcc-11.4.1/openblas-0.3.30-bqh5gp76mxt6s26dejedwgcrvslwy5l6/lib
+   ```
+   ```
+   LAPACK library link line: <ENTER> (not needed)
+   ```
+   ```
+   communication library ('serial','sockets' or 'mpi' or 'mixed')? mpi
+   ```
+   ```
+   Enter MPI library (hpcx, impi, mpich, mvapich2, mpt, openmpi, sockets): openmpi
+   ```
+   ```
+   mpi path: /opt/rit/el9/20250815/app/linux-rhel9-x86_64_v3/gcc-11.4.1/openmpi-5.0.8-mybw4ysihjo77xmjcknse5my7koichix
+   ```
+   ```
+   hit the <ENTER> key to continue through the rest of the prompts which no input needed
+
 5. Build:
    ```bash
    make modules
