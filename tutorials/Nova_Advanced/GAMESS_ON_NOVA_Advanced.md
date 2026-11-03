@@ -84,7 +84,7 @@ Scripts in this folder:
    make -j4
    ```
 6. The build succeeded if you see `The linking of GAMESS to binary gamess.00.x was successful.`
-7. Copy `rungms-dev-nova` over `rungms-dev` in the GAMESS directory:
+7. Copy [`rungms-dev-nova`](https://github.com/gms-bbg/CHEM-580/blob/main/tutorials/Nova_Advanced/rungms-dev-nova) over `rungms-dev` in the GAMESS directory (download the [raw file](https://raw.githubusercontent.com/gms-bbg/CHEM-580/main/tutorials/Nova_Advanced/rungms-dev-nova) or copy it from this folder):
    ```bash
    cp rungms-dev-nova rungms-dev
    ```
