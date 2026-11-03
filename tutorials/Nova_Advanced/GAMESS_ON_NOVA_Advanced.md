@@ -77,6 +77,8 @@ Scripts in this folder:
    ```
    hit the <ENTER> key to continue through the rest of the prompts which no input needed
 
+**Check that your install.info looks correct and is the same as install.info.nova.example**
+
 5. Build:
    ```bash
    make modules
@@ -92,6 +94,7 @@ Scripts in this folder:
    ```bash
    ./rungms-dev /path/to/gamess/tests/standard/exam01.inp 00 1 1 &> exam01.log
    ```
+
 
 ## 2. Run a Job
 
