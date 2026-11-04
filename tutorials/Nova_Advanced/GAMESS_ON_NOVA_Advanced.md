@@ -35,7 +35,7 @@ See the documentation on
    ```bash
    module load cmake
    module load openmpi
-   module load openblas/0.3.21-zniqbxh
+   module load openblas/0.3.30-ilp64-bqh5gp7
    ```
 4. Run the configuration and answer the prompts, using [`install.info.nova.example`](./install.info.nova.example) as a guide for paths:
    ```bash
