@@ -8,6 +8,18 @@ Scripts in this folder:
 | [`install.info.nova.example`](./install.info.nova.example) | Example `install.info` for the GAMESS configuration |
 | [`rungms-dev-nova`](./rungms-dev-nova) | Replacement `rungms-dev` for Nova |
 | [`nova_run_gamess_batch.sh`](./nova_run_gamess_batch.sh) | SBATCH script to run a GAMESS input |
+### 0. Do these instructions on a /work/classtmp
+
+The home directory on Nova is restricted to 10GB
+
+You need to be working on  
+```
+/work/classtmp/<NetID>
+```
+https://research.it.iastate.edu/hpc-class
+https://research.it.iastate.edu/reducing-home-directory-usage-nova
+
+See the documentation on 
 
 ## 1. Build GAMESS
 
